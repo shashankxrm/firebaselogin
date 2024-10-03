@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <div class="sign-up">
+        <button id="googleSignUpBtn">Sign up with Google</button>
+        <button id="emailSignUpBtn">Sign up with Email</button>
+    </div>
+    
+    <div id="message" style="display: none;"></div>
+    <!-- Load Firebase SDKs -->
+    <script type="module"  src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script type="module"  src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script type="module"  src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <!-- Load Firebase configuration and custom scripts -->
+    <script type="module"  src="js/firebase-config.js"></script>
+    <script type="module"  src="js/signup.js"></script>
+</body>
+
+</html>
