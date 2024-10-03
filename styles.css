@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    max-height: 36px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#error,
+#message {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#error {
+    color: red;
+    background-color: #fdd;
+}
+
+#message {
+    color: green;
+    background-color: #dfd;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-up input {
+    width: 30%;
+}
+.sign-up button {
+    width: fit-content
+}
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in input {
+    width: 30%;
+}
+
+.sign-in button {
+    width: fit-content
+}
+
+.welcome-message {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dfd;
+}

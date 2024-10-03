@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Sign In</h1>
+    <div class="sign-in">
+        <input type="text" id="phoneNumber" placeholder="Enter phone number">
+        <button id="googleSignInBtn">Sign in with Google</button>
+        <input type="text" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="emailSignInBtn">Sign in with Email</button>
+    </div>
+    
+    <div id="error" style="display: none; color: red;"></div>
+    <!-- Load Firebase SDKs -->
+    <script type="module"  src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script type="module"  src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script type="module"  src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <!-- Load Firebase configuration and custom scripts -->
+    <script type="module"  src="js/firebase-config.js"></script>
+    <script type="module"  src="js/signin.js"></script>
+</body>
+
+</html>
